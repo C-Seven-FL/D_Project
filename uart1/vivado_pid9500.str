@@ -1,0 +1,208 @@
+/*
+
+Xilinx Vivado v2020.2 (64-bit) [Major: 2020, Minor: 2]
+SW Build: 3064766 on Wed Nov 18 09:12:45 MST 2020
+IP Build: 3064653 on Wed Nov 18 14:17:31 MST 2020
+
+Process ID (PID): 9500
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Tue Apr 18 03:52:25 CEST 2023
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 2560x1440
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+
+Java version: 	11.0.2 64-bit
+Java home: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2
+Java executable location: 	C:/Xilinx/Vivado/2020.2/tps/win64/jre11.0.2/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Aquaton
+User home directory: C:/Users/Aquaton
+User working directory: C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1
+User country: 	RU
+User language: 	ru
+User locale: 	ru_RU
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2020.2
+RDI_DATADIR: C:/Xilinx/Vivado/2020.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2020.2/bin
+
+Vivado preferences file location: C:/Users/Aquaton/AppData/Roaming/Xilinx/Vivado/2020.2/vivado.xml
+Vivado preferences directory: C:/Users/Aquaton/AppData/Roaming/Xilinx/Vivado/2020.2/
+Vivado layouts directory: C:/Users/Aquaton/AppData/Roaming/Xilinx/Vivado/2020.2/data/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2020.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/vivado.log
+Vivado journal file location: 	C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/vivado.jou
+Engine tmp dir: 	C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/.Xil/Vivado-9500-DESKTOP-RAOGKPH
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2020.2/ids_lite/ISE
+XILINX_HLS: C:/Xilinx/Vitis_HLS/2020.2
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2020.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2020.2
+
+
+GUI allocated memory:	173 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,016 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\Aquaton\Desktop\Новая папка\digital-electronics-1\project_UART\uart1\uart1.xpr. Version: Vivado v2020.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/uart1.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/uart1.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 120 MB (+123874kb) [00:00:06]
+// [Engine Memory]: 1,016 MB (+913668kb) [00:00:06]
+// WARNING: HEventQueue.dispatchEvent() is taking  1667 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'. 
+// Project name: uart1; location: C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// HMemoryUtils.trashcanNow. Engine heap size: 1,016 MB. GUI used memory: 72 MB. Current time: 4/18/23, 3:52:26 AM CEST
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 0); // D
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd)]", 1, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd)]", 1, true, false, false, false, false, true); // D - Double Click - Node
+// [GUI Memory]: 133 MB (+6920kb) [00:00:12]
+selectCodeEditor("UART.vhd", 363, 381); // bP
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd), Nexys_led : Nexys_FPGA(Behavioral) (Nexys_FPGA.vhd)]", 2, true); // D - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd), Nexys_led : Nexys_FPGA(Behavioral) (Nexys_FPGA.vhd)]", 2, true, false, false, false, false, true); // D - Double Click - Node
+selectCodeEditor("Nexys_FPGA.vhd", 408, 403); // bP
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd), Nexys_led : Nexys_FPGA(Behavioral) (Nexys_FPGA.vhd)]", 2); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd), Nexys_led : Nexys_FPGA(Behavioral) (Nexys_FPGA.vhd), baud_end0 : baud(behavioral) (baud.vhd)]", 3, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, UART(Behavioral) (UART.vhd), Nexys_led : Nexys_FPGA(Behavioral) (Nexys_FPGA.vhd), baud_end0 : baud(behavioral) (baud.vhd)]", 3, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys_FPGA.vhd", 2); // m
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Receiver(Behavioral) (Receiver.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Receiver(Behavioral) (Receiver.vhd)]", 4, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Receiver(Behavioral) (Receiver.vhd)]", 4, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Transmitter(Behavioral) (Transmitter.vhd)]", 5, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Transmitter(Behavioral) (Transmitter.vhd)]", 5, false, false, false, false, false, true); // D - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, nexys a7-50t.xdc]", 8, false); // D
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, nexys a7-50t.xdc]", 8, false, false, false, false, false, true); // D - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "UART.vhd", 1); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys_FPGA.vhd", 2); // m
+selectCodeEditor("Nexys_FPGA.vhd", 765, 557); // bP
+selectCodeEditor("Nexys_FPGA.vhd", 880, 632); // bP
+// Elapsed time: 35 seconds
+selectCodeEditor("Nexys_FPGA.vhd", 920, 505); // bP
+// Elapsed time: 62 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "baud.vhd", 3); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "UART.vhd", 1); // m
+selectCodeEditor("UART.vhd", 399, 484); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("UART.vhd", 225, 451); // bP
+selectCodeEditor("UART.vhd", 244, 486); // bP
+selectCodeEditor("UART.vhd", 154, 454); // bP
+selectCodeEditor("UART.vhd", 161, 451); // bP
+selectCodeEditor("UART.vhd", 455, 410); // bP
+selectCodeEditor("UART.vhd", 200, 637); // bP
+selectCodeEditor("UART.vhd", 244, 704); // bP
+selectCodeEditor("UART.vhd", 224, 615); // bP
+// Elapsed time: 16 seconds
+selectCodeEditor("UART.vhd", 581, 478); // bP
+selectCodeEditor("UART.vhd", 273, 670); // bP
+// Elapsed time: 13 seconds
+selectCodeEditor("UART.vhd", 286, 618); // bP
+// Elapsed time: 12 seconds
+selectCodeEditor("UART.vhd", 578, 484); // bP
+selectCodeEditor("UART.vhd", 518, 513); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 140 MB (+5kb) [00:04:05]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys_FPGA.vhd", 2); // m
+selectCodeEditor("Nexys_FPGA.vhd", 838, 426); // bP
+selectCodeEditor("Nexys_FPGA.vhd", 307, 249); // bP
+selectCodeEditor("Nexys_FPGA.vhd", 561, 286); // bP
+selectCodeEditor("Nexys_FPGA.vhd", 667, 315); // bP
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Nexys_FPGA.vhd", 836, 242); // bP
+selectCodeEditor("Nexys_FPGA.vhd", 475, 283); // bP
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Transmitter.vhd", 5); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Receiver.vhd", 4); // m
+// Elapsed time: 13 seconds
+selectCodeEditor("Receiver.vhd", 607, 620); // bP
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Transmitter.vhd", 5); // m
+// Elapsed time: 35 seconds
+selectCodeEditor("Transmitter.vhd", 789, 351); // bP
+selectCodeEditor("Transmitter.vhd", 809, 322); // bP
+selectCodeEditor("Transmitter.vhd", 800, 285); // bP
+selectCodeEditor("Transmitter.vhd", 177, 299); // bP
+selectCodeEditor("Transmitter.vhd", 316, 213); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys a7-50t.xdc", 6); // m
+selectCodeEditor("nexys a7-50t.xdc", 8, 387); // bP
+selectCodeEditor("nexys a7-50t.xdc", 10, 690); // bP
+selectCodeEditor("nexys a7-50t.xdc", 8, 701); // bP
+// Elapsed time: 10 seconds
+selectCodeEditor("nexys a7-50t.xdc", 8, 131); // bP
+selectCodeEditor("nexys a7-50t.xdc", 11, 112); // bP
+selectCodeEditor("nexys a7-50t.xdc", 1045, 240); // bP
+selectCodeEditor("nexys a7-50t.xdc", 1070, 366); // bP
+// Elapsed time: 26 seconds
+selectCodeEditor("nexys a7-50t.xdc", 10, 693); // bP
+selectCodeEditor("nexys a7-50t.xdc", 885, 733); // bP
+// Elapsed time: 11 seconds
+selectCodeEditor("nexys a7-50t.xdc", 965, 581); // bP
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Nexys_FPGA.vhd", 2); // m
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "nexys a7-50t.xdc", 6); // m
+selectCodeEditor("nexys a7-50t.xdc", 1094, 630); // bP
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a
+// bz (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A
+// Tcl Message: synth_design -rtl -rtl_skip_mlo -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -rtl_skip_mlo -name rtl_1 Starting synth_design Using part: xc7a50ticsg324-1L Top: UART 
+// TclEventType: ELABORATE_START
