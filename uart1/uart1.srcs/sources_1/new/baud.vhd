@@ -12,13 +12,8 @@ use ieee.numeric_std.all; -- Package for arithmetic operations
 
 entity baud is
 
-<<<<<<< HEAD
     Port ( clk : in STD_LOGIC; --! Main clock
            rst : in STD_LOGIC; --! High-active synchronous reset
-=======
-    Port ( clk : in STD_LOGIC;
-           rst : in STD_LOGIC;
->>>>>>> 8da244511e1e59e24453c0111883f6d901de9aa3
            baud_sw : in STD_LOGIC_VECTOR(2 downto 0);
            clk_baud : out STD_LOGIC --Output baud clock for RX/TX, using code from clock_enable
            );
@@ -32,11 +27,7 @@ architecture behavioral of baud is
   
 begin
 
-<<<<<<< HEAD
     baud_solve : process(clk, baud_sw) is
-=======
-    baud_solve : process(baud_sw) is
->>>>>>> 8da244511e1e59e24453c0111883f6d901de9aa3
     begin
         case baud_sw is
             when "000" =>
@@ -54,20 +45,17 @@ begin
             when "110" =>
                 baud_gen <= 1736;
             when "111" =>
-<<<<<<< HEAD
                 baud_gen <= 868;
             when others =>
                 baud_gen <= 20833; 
-=======
-                baud_gen <= 115200;
-            when others =>
-                baud_gen <= 4800;            
->>>>>>> 8da244511e1e59e24453c0111883f6d901de9aa3
             end case;
-         sig_cnt <= 0;
-            
      end process baud_solve;
-<<<<<<< HEAD
+     
+     
+     baud_cnt0 : process (baud_sw) is
+     begin
+        sig_cnt <= 0;
+     end process baud_cnt0;
      
   --------------------------------------------------------
   -- 1. process dava 100M signalu za sekundu 
@@ -75,9 +63,6 @@ begin
   -- 3. kdy? dosahneme vysledn? hodnoty, po?le se signal na rx/tx a slo?ka p?ejde na 0
   -- 3.1 kdy? zm?nime n?co v baud_gen, tak slo?ka p?jde na 0
 
-=======
-        
->>>>>>> 8da244511e1e59e24453c0111883f6d901de9aa3
   --------------------------------------------------------
   -- p_clk_enable:
   -- Generate clock enable signal. By default, enable signal

@@ -2,13 +2,13 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Tue Apr 18 04:00:53 2023
-# Process ID: 12020
-# Current directory: C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13692 C:\Users\Aquaton\Desktop\Новая папка\digital-electronics-1\project_UART\uart1\uart1.xpr
-# Log file: C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/vivado.log
-# Journal file: C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1\vivado.jou
+# Start of session at: Tue Apr 18 04:14:16 2023
+# Process ID: 20980
+# Current directory: C:/Users/Aquaton/Desktop/nexys/D_Project/uart1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20704 C:\Users\Aquaton\Desktop\nexys\D_Project\uart1\uart1.xpr
+# Log file: C:/Users/Aquaton/Desktop/nexys/D_Project/uart1/vivado.log
+# Journal file: C:/Users/Aquaton/Desktop/nexys/D_Project/uart1\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/Aquaton/Desktop/Новая папка/digital-electronics-1/project_UART/uart1/uart1.xpr}
+open_project C:/Users/Aquaton/Desktop/nexys/D_Project/uart1/uart1.xpr
 update_compile_order -fileset sources_1
